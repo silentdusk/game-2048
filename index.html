@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2048</title>
+    <script type="module" src="/src/main.ts" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="right">
+          <span id="score"></span>
+          <img src="./src/assets/diamond.png" alt="diamond" class="diamond" />
+          <button id="new-game-button">New Game</button>
+        </div>
+      </header>
+
+      <div class="game">
+        <div class="cell" id="c00"></div>
+        <div class="cell" id="c01"></div>
+        <div class="cell" id="c02"></div>
+        <div class="cell" id="c03"></div>
+        <div class="cell" id="c10"></div>
+        <div class="cell" id="c11"></div>
+        <div class="cell" id="c12"></div>
+        <div class="cell" id="c13"></div>
+        <div class="cell" id="c20"></div>
+        <div class="cell" id="c21"></div>
+        <div class="cell" id="c22"></div>
+        <div class="cell" id="c23"></div>
+        <div class="cell" id="c30"></div>
+        <div class="cell" id="c31"></div>
+        <div class="cell" id="c32"></div>
+        <div class="cell" id="c33"></div>
+      </div>
+
+      <div class="message"></div>
+    </div>
+  </body>
+</html>
